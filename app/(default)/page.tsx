@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Home - Bakkhos Labs',
+  description: 'Bakkhos Labs is a cybersecurity training and consulting company.',
 }
 
 import Hero from '@/components/hero'
@@ -14,9 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <Features />
-      <Zigzag />
       <Testimonials />
-      <Newsletter />
     </>
   )
 }
