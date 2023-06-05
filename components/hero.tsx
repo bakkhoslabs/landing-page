@@ -4,7 +4,7 @@ import ModalVideo from '@/components/modal-video'
 export default function Hero() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative flex h-screen">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         {/* Illustration behind hero content */}
         <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
@@ -20,7 +20,7 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="m-auto">
+        <div className="my-28">
 
           {/* Section header */}
           <div className="max-w-4xl mx-auto pb-12 md:pb-16">
