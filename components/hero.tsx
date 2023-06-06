@@ -24,7 +24,7 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-4xl mx-auto pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Real cybersecurity training.</h1>
+            <h1 className="h1 mb-4" data-aos="fade-up">Unlocking cybersecurity potential.</h1>
             <h2 className="h2 mb-4" data-aos="fade-up">Not just checking boxes.</h2>
             <p className="text-xl text-gray-400 mb-4" data-aos="fade-up" data-aos-delay="200">
               <span className='text-amber-400 font-bold'>We don't settle for mediocrity when it comes to your organization's security.</span> Our team of highly experienced trainers have proven their mettle in renowned cybersecurity competitions on a global scale, and helped Fortune 500 companies secure their systems. 
