@@ -22,7 +22,7 @@ export default function Team() {
 
               {/* 1st item */}
               <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
-                <img className="w-max rounded-full mx-auto p-5" src="/images/team/zeyu.jpg" alt="Zeyu Avatar" />
+                <img className="w-9/12 rounded-full mx-auto p-5" src="/images/team/zeyu.jpg" alt="Zeyu Avatar" />
                 <div className="p-5">
                   <div className="text-center">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
@@ -32,24 +32,26 @@ export default function Team() {
                   <p className="mt-3 mb-4 font-light">
                     Zeyu was inspired to start Bakkhos Labs after witnessing a gap between
                     existing security training solutions and the security needs of modern organizations.
-                    He is <span className='text-amber-400 font-bold'>hacking web and mobile applications</span> at 
-                    ByteDance and Electrovolt (Cure53).
+                    He has worked with ByteDance and Electrovolt (Cure53) to find numerous vulnerabilities
+                    in critical <span className='text-amber-400 font-bold'>web and mobile applications</span>.
                   </p>
                   <p className="mt-3 mb-4 font-light">
                     Zeyu is a <span className='text-amber-400 font-bold'>bug bounty veteran</span>, having claimed the
                     lion's share of the bounties in time-limited programs by MINDEF Singapore and GovTech Singapore in 2022 and 2023.
-                    He has helped various Fortune 500 companies secure their assets.
+                    Through bug bounty programs, he has helped various Fortune 500 companies secure their assets.
                   </p>
                   <p className="mt-3 mb-4 font-light">
                     Zeyu founded Social Engineering Experts, Singapore's <span className='text-amber-400 font-bold'>#1 CTF team</span> in 
-                    2022 and 2023, and is an active member of Water Paddler, an international CTF team.
+                    2022 and 2023, and is an active member of Water Paddler, an international CTF team. He is 
+                    the <span className='text-amber-400 font-bold'>lead organizer</span> for SEETF,
+                    an annual CTF competition that attracts thousands of participants from around the world.
                   </p>
                 </div>
               </div>
 
               {/* 2nd item */}
               <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
-                <img className="w-max rounded-full mx-auto p-5" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                <img className="w-9/12 rounded-full mx-auto p-5" src="/images/team/akash.png" alt="Akash Avatar" />
                 <div className="p-5">
                   <div className="text-center">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
@@ -57,14 +59,24 @@ export default function Team() {
                     </h3>
                   </div>
                   <p className="mt-3 mb-4 font-light">
-                    Akash is Akash.
+                    Akash's expertise in CTF competitions goes beyond participation, as he has taken on the role of
+                    both <span className='text-amber-400 font-bold'>creator and host</span>.
+                    Akash has <span className='text-amber-400 font-bold'>organized several successful CTF events</span>, including Geekcamp CTF in 2018 and 2019,
+                    as well as Grey Cat The Flag in 2022 and 2023. These events provided platforms for aspiring
+                    cybersecurity enthusiasts to showcase their skills and learn from one another.
+                  </p>
+                  <p className="mt-3 mb-4 font-light">
+                    In addition to his involvement in organizing CTF competitions, Akash is an esteemed member
+                    of <span className='text-amber-400 font-bold'>NUS Greyhats</span>. NUS Greyhats provides a supportive
+                    environment for continuous learning and professional development, allowing Akash to further enhance
+                    his skills and stay at the forefront of the ever-evolving field of cybersecurity.
                   </p>
                 </div>
               </div>
 
               {/* 3rd item */}
               <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
-                <img className="w-max rounded-full mx-auto p-5" src="/images/team/devesh.jpg" alt="Bonnie Avatar" />
+                <img className="w-9/12 rounded-full mx-auto p-5" src="/images/team/devesh.jpg" alt="Devesh Avatar" />
                 <div className="p-5">
                   <div className="text-center">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
@@ -72,14 +84,26 @@ export default function Team() {
                     </h3>
                   </div>
                   <p className="mt-3 mb-4 font-light">
-                    Devesh is Devesh.
+                    Devesh is a passionate cybersecurity enthusiast with 
+                    a <span className='text-amber-400 font-bold'>wealth of experience and expertise</span> in the field.
+                    Since 2016, he has been actively competing in CTF competitions, continuously challenging
+                    himself and honing his skills in various aspects of cybersecurity.
+                  </p>
+                  <p>
+                    Beyond participating in CTF events, Devesh has also been recognized for his contributions to the
+                    community. He has actively contributed to competitions such as <span className='text-amber-400 font-bold'>NUS Greyhats' GreyCTF</span>,
+                    where he develops and contributes captivating challenges.
+                  </p>
+                  <p>
+                    His deep understanding of <span className='text-amber-400 font-bold'>web security</span> and meticulous approach to vulnerability assessment have
+                    led to the identification and remediation of critical flaws in various digital infrastructures.
                   </p>
                 </div>
               </div>
 
               {/* 4th item */}
               <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
-                <img className="w-max rounded-full mx-auto p-5" src="/images/team/ariana.jpg" alt="Bonnie Avatar" />
+                <img className="w-9/12 rounded-full mx-auto p-5" src="/images/team/ariana.jpg" alt="Ariana Avatar" />
                 <div className="p-5">
                   <div className="text-center">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
@@ -103,7 +127,7 @@ export default function Team() {
 
               {/* 5th item */}
               <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
-                <img className="w-max rounded-full mx-auto p-5" src="/images/team/ravin.jpg" alt="Bonnie Avatar" />
+                <img className="w-9/12 rounded-full mx-auto p-5" src="/images/team/ravin.jpg" alt="Ravin Avatar" />
                 <div className="p-5">
                   <div className="text-center">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
