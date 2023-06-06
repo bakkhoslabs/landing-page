@@ -97,7 +97,7 @@ export default function Team() {
 
               {/* 5th item */}
               <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
-                <img className="w-max rounded-full mx-auto p-5" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                <img className="w-max rounded-full mx-auto p-5" src="/images/team/ravin.jpg" alt="Bonnie Avatar" />
                 <div className="p-5">
                   <div className="text-center">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
