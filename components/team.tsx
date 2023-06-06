@@ -21,17 +21,17 @@ export default function Team() {
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
 
               {/* 1st item */}
-              <div className="bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up">
+              <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
                 <img className="w-max rounded-full mx-auto p-5" src="/images/team/zeyu.jpg" alt="Zeyu Avatar" />
                 <div className="p-5">
                   <div className="text-center">
-                    <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
                       <a href="#">Zeyu (Zayne)</a>
                     </h3>
                   </div>
                   <p className="mt-3 mb-4 font-light">
                     Zeyu was inspired to start Bakkhos Labs after witnessing a gap between
-                    existing security training solutions and the security needs of the modern organizations.
+                    existing security training solutions and the security needs of modern organizations.
                     He is <span className='text-amber-400 font-bold'>hacking web and mobile applications</span> at 
                     ByteDance and Electrovolt (Cure53).
                   </p>
@@ -48,11 +48,11 @@ export default function Team() {
               </div>
 
               {/* 2nd item */}
-              <div className="bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up">
+              <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
                 <img className="w-max rounded-full mx-auto p-5" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
                 <div className="p-5">
                   <div className="text-center">
-                    <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
                       <a href="#">Akash</a>
                     </h3>
                   </div>
@@ -66,11 +66,11 @@ export default function Team() {
               </div>
 
               {/* 3rd item */}
-              <div className="bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up">
+              <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
                 <img className="w-max rounded-full mx-auto p-5" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
                 <div className="p-5">
                   <div className="text-center">
-                    <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
                       <a href="#">Devesh</a>
                     </h3>
                   </div>
@@ -81,26 +81,26 @@ export default function Team() {
               </div>
 
               {/* 4th item */}
-              <div className="bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up">
+              <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
                 <img className="w-max rounded-full mx-auto p-5" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
                 <div className="p-5">
                   <div className="text-center">
-                    <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
                       <a href="#">Ariana</a>
                     </h3>
                   </div>
                   <p className="mt-3 mb-4 font-light">
-                    Ariana is a co-founder of Bakkhos Labs.
+                    Ariana is Ariana.
                   </p>
                 </div>
               </div>
 
               {/* 5th item */}
-              <div className="bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up">
+              <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
                 <img className="w-max rounded-full mx-auto p-5" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
                 <div className="p-5">
                   <div className="text-center">
-                    <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
                       <a href="#">Ravin</a>
                     </h3>
                   </div>
