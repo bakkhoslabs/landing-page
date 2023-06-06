@@ -57,17 +57,14 @@ export default function Team() {
                     </h3>
                   </div>
                   <p className="mt-3 mb-4 font-light">
-                    (Why you were inspired to start Bakkhos Labs)
-                  </p>
-                  <p className="mt-3 mb-4 font-light">
-                    (About You)
+                    Akash is Akash.
                   </p>
                 </div>
               </div>
 
               {/* 3rd item */}
               <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
-                <img className="w-max rounded-full mx-auto p-5" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                <img className="w-max rounded-full mx-auto p-5" src="/images/team/devesh.jpg" alt="Bonnie Avatar" />
                 <div className="p-5">
                   <div className="text-center">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
@@ -82,7 +79,7 @@ export default function Team() {
 
               {/* 4th item */}
               <div className="bg-gray-50 rounded-lg shadow bg-gray-800 border-gray-700" data-aos="fade-up">
-                <img className="w-max rounded-full mx-auto p-5" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar" />
+                <img className="w-max rounded-full mx-auto p-5" src="/images/team/ariana.jpg" alt="Bonnie Avatar" />
                 <div className="p-5">
                   <div className="text-center">
                     <h3 className="text-xl font-bold tracking-tight text-gray-900 text-white">
@@ -90,7 +87,16 @@ export default function Team() {
                     </h3>
                   </div>
                   <p className="mt-3 mb-4 font-light">
-                    Ariana is Ariana.
+                    Ariana is a highly skilled cybersecurity professional with nine years of experience in programming
+                    and a strong passion for addressing intricate security challenges. Her exceptional track record
+                    includes winning <span className='text-amber-400 font-bold'>first place</span> in at least seven CTF competitions, earning substantial cash prizes.
+                    She has also made significant contributions to the cybersecurity community by organizing and providing
+                    challenges in CTFs for three years, establishing herself as a respected figure in the industry.
+                  </p>
+                  <p className="mt-3 mb-4 font-light">
+                    Ariana has published a <span className='text-amber-400 font-bold'>groundbreaking research paper</span> on cryptography, specifically focusing on fault
+                    attacks on a post-quantum isogeny cryptosystem. Through her research, Ariana has shed light on
+                    vulnerabilities in cutting-edge encryption methods and proposed innovative solutions.
                   </p>
                 </div>
               </div>
@@ -105,7 +111,16 @@ export default function Team() {
                     </h3>
                   </div>
                   <p className="mt-3 mb-4 font-light">
-                    Ravin is Ravin.
+                    Ravin is a <span className='text-amber-400 font-bold'>penetration tester</span>, 
+                    widely recognized for his deep understanding of cybersecurity and his innovative approach to 
+                    unmasking vulnerabilities. Through his collaboration with <span className='text-amber-400 font-bold'>JustHacking Inc</span>, 
+                    Ravin has played a critical role in creating challenges, designing training sets, and organizing CTFs.
+                  </p>
+                  <p className="mt-3 mb-4 font-light">
+                    In his professional capacity, Ravin takes a meticulous approach to assess and exploit potential
+                    weaknesses in systems, providing a <span className='text-amber-400 font-bold'>realistic assessment</span> of
+                    cyber risks. His adeptness at bridging the gap between a company's current security measures and looming
+                    threats allows him to help organizations fortify their digital infrastructures against sophisticated cyber attacks.
                   </p>
                 </div>
               </div>
