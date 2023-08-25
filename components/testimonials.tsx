@@ -26,11 +26,11 @@ export default function Testimonials() {
 
             {/* 1st testimonial */}
             <div className="flex flex-col" data-aos="fade-up" data-aos-delay="200">
-              <Image src="/images/clients/blockcyber.png" width={0} height={0} sizes="100vw" style={{ height: '100%', width: '100%' }}></Image>
+              <Image src="/images/clients/blockcyber.png" alt="Blockcyber" width={0} height={0} sizes="100vw" style={{ height: '100%', width: '100%' }}></Image>
             </div>
             {/* 2nd testimonial */}
             <div className="flex flex-col" data-aos="fade-up" data-aos-delay="200">
-              <Image src="/images/clients/CSA.png" width={0} height={0} sizes="100vw" style={{ height: '100%', width: '100%' }}></Image>
+              <Image src="/images/clients/CSA.png" alt="CSA" width={0} height={0} sizes="100vw" style={{ height: '100%', width: '100%' }}></Image>
             </div>
 
           </div>
