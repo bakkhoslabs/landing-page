@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import MailIcon from '@mui/icons-material/Mail';
 
 export default function Footer() {
   return (
@@ -9,9 +10,14 @@ export default function Footer() {
 
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
+            
+            {/* Copyrights note */}
+            <div className="text-gray-400 text-sm mr-4 md-order-0">&copy; Bakkhos Labs Pte Ltd. All rights reserved.</div>
+
+            <div className="text-gray-400 text-sm mr-4 md:order-1"><MailIcon/> contact@bakkhoslabs.com</div>
 
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            <ul className="flex mb-4 md:order-2 md:ml-4 md:mb-0">
               <li>
                 <Link href="https://twitter.com/bakkhoslabs" className="flex justify-center items-center text-amber-600 bg-gray-800 hover:text-gray-100 hover:bg-amber-600 rounded-full transition duration-150 ease-in-out" aria-label="Twitter">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -34,10 +40,6 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-
-            {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Bakkhos Labs. All rights reserved.</div>
-
           </div>
 
         </div>
