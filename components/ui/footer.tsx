@@ -12,9 +12,9 @@ export default function Footer() {
           <div className="md:flex md:items-center md:justify-between">
             
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4 md-order-0">&copy; Bakkhos Labs Pte Ltd. All rights reserved.</div>
+            <div className="text-gray-400 mb-4 text-sm mr-4 md-order-0">&copy; Bakkhos Labs Pte Ltd. All rights reserved.</div>
 
-            <div className="text-gray-400 text-sm mr-4 md:order-1"><MailIcon/> contact@bakkhoslabs.com</div>
+            <div className="text-gray-400 mb-4 text-sm mr-4 md:order-1"><MailIcon/> contact@bakkhoslabs.com</div>
 
             {/* Social links */}
             <ul className="flex mb-4 md:order-2 md:ml-4 md:mb-0">
