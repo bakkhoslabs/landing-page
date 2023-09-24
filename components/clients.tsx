@@ -4,14 +4,14 @@ import Image from 'next/image'
 export default function Clients() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6" data-aos="fade-up" >
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <GoldHeading2 text="Trusted by the Best." />
+            <GoldHeading2 text="Trusted by the Best." fadeUp={false} />
             <div>
-              <SlateHeading4 text="Meet our valued partners." />
+              <SlateHeading4 text="Meet our valued partners." fadeUp={false} />
             </div>
           </div>
 

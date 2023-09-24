@@ -33,13 +33,13 @@ export default function Team() {
   return (
     <>
       <section>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6" data-aos="fade-up" >
           <div className="py-12 md:py-20 border-t border-gray-800">
 
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-              <GoldHeading2 text="Hackers for Good." />
-              <SlateHeading4 text="Meet the team of white hat hackers behind Bakkhos Labs." />
+              <GoldHeading2 text="Hackers for Good." fadeUp={false} />
+              <SlateHeading4 text="Meet the team of white hat hackers behind Bakkhos Labs." fadeUp={false} />
             </div>
             <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
 
