@@ -4,7 +4,7 @@ import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
 import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
 import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 
-export default function Testimonials() {
+export default function Clients() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -21,16 +21,20 @@ export default function Testimonials() {
             </p>
           </div>
 
-          {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-2 lg:gap-6 items-start items-center lg:max-w-none">
+          {/* Clients */}
+          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start items-center lg:max-w-none">
 
-            {/* 1st testimonial */}
+            {/* 1st client */}
             <div className="flex flex-col" data-aos="fade-up" data-aos-delay="200">
-              <Image src="/images/clients/blockcyber.png" alt="Blockcyber" width={0} height={0} sizes="100vw" style={{ height: '100%', width: '100%' }}></Image>
+              <Image src="/images/clients/ensign.png" alt="Ensign Infosecurity" width={0} height={0} sizes="100vw" style={{ height: '100%', width: '100%' }}></Image>
             </div>
-            {/* 2nd testimonial */}
+            {/* 2nd client */}
             <div className="flex flex-col" data-aos="fade-up" data-aos-delay="200">
               <Image src="/images/clients/CSA.png" alt="CSA" width={0} height={0} sizes="100vw" style={{ height: '100%', width: '100%' }}></Image>
+            </div>
+            {/* 3rd client */}
+            <div className="flex flex-col" data-aos="fade-up" data-aos-delay="200">
+              <Image src="/images/clients/blockcyber.png" alt="Blockcyber" width={0} height={0} sizes="100vw" style={{ height: '100%', width: '100%' }}></Image>
             </div>
 
           </div>
