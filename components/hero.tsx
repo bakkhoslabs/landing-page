@@ -1,3 +1,4 @@
+import zIndex from '@mui/material/styles/zIndex'
 import { GoldHeading1, SlateHeading2 } from './util/headings'
 
 export default function Hero() {
@@ -6,7 +7,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         {/* Illustration behind hero content */}
-        <div className="absolute left-0 bottom-0 -ml-20 -mb-40 block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
+        <div style={{zIndex: -99}} className="absolute left-0 bottom-0 -ml-20 -mb-40 block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
           <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
@@ -41,8 +42,7 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="
                   btn text-white text-xl font-bold w-full mb-4 sm:w-auto sm:mb-0
-                  bg-gradient-to-r from-amber-600 to-orange-700  
-                  hover:from-amber-700 hover:to-orange-800" href="mailto:contact@bakkhoslabs.com">
+                  bg-gradient-to-r from-amber-600 to-orange-700" href="mailto:contact@bakkhoslabs.com">
                   Let's talk.
                 </a>
               </div>
