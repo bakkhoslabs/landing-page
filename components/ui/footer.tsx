@@ -8,16 +8,19 @@ export default function Footer() {
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
-          {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
             
             {/* Copyrights note */}
-            <div className="text-gray-400 mb-4 text-sm mr-4 md-order-0">&copy; Bakkhos Labs Pte Ltd. All rights reserved.</div>
+            <div className="text-gray-400 mb-4 text-sm md-order-0">&copy; Bakkhos Labs. All rights reserved.</div>
 
-            <div className="text-gray-400 mb-4 text-sm mr-4 md:order-1"><MailIcon/> contact@bakkhoslabs.com</div>
+            {/* Email */}
+            <div className="text-gray-400 mb-4 text-sm md-order-1 md:text-right"> <MailIcon/> contact@bakkhoslabs.com </div>
+          </div>
 
+          <div className="md:flex md:items-center md:justify-between">
+                        
             {/* Social links */}
-            <ul className="flex mb-4 md:order-2 md:ml-4 md:mb-0">
+            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link href="https://twitter.com/bakkhoslabs" className="flex justify-center items-center text-amber-600 bg-gray-800 hover:text-gray-100 hover:bg-amber-600 rounded-full transition duration-150 ease-in-out" aria-label="Twitter">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -40,8 +43,9 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
 
+            <div className="text-gray-400 mb-4 text-sm md-order-0"> Bakkhos Labs Pte. Ltd. is a company registered in Singapore (registration number 202316912C).</div>
+          </div>
         </div>
       </div>
     </footer>

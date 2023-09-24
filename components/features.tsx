@@ -1,3 +1,5 @@
+import { GoldHeading2, SlateHeading4 } from './util/headings'
+
 export default function Features() {
   return (
     <section>
@@ -6,7 +8,7 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Been there, done that.</h2>
+            <GoldHeading2 text="Been there, done that." />
             <p className="text-xl text-gray-400">
               The little details matter. We know how difficult it can be to learn cybersecurity.
               We've been there, and we've done that. We're here to help.
@@ -23,7 +25,7 @@ export default function Features() {
                 <path className="stroke-current text-amber-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-amber-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">A World-Class Team</h4>
+              <SlateHeading4 text="A World-Class Team" />
               <p className="text-lg text-gray-400 mb-2">
                 With Bakkhos, you get access to some of the <span className='text-amber-400 font-bold'>best hackers 
                 in the world.</span> Our members founded the #1 Singaporean CTF team, 
@@ -40,7 +42,7 @@ export default function Features() {
                 <path className="stroke-current text-amber-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-amber-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Hands On Challenges</h4>
+             <SlateHeading4 text="Best-in-Class Content" />
               <p className="text-lg text-gray-400">
                 CTF isn't about guessing the right attack vector. It's about <span className='text-amber-400 font-bold'>learning how to think like a 
                 hacker.</span> We've designed our challenges to be <span className='text-amber-400 font-bold'>fun and engaging</span>,

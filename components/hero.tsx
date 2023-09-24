@@ -1,5 +1,4 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '@/components/modal-video'
+import { GoldHeading1, SlateHeading2 } from './util/headings'
 
 export default function Hero() {
   return (
@@ -24,18 +23,28 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-4xl mx-auto pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Unlocking cybersecurity potential.</h1>
-            <h2 className="h2 mb-4" data-aos="fade-up">Not just checking boxes.</h2>
+            <GoldHeading1 text="Unlocking cybersecurity potential." fadeUp />
+            <SlateHeading2 text="Not just checking boxes." fadeUp />
             <p className="text-xl text-gray-400 mb-4" data-aos="fade-up" data-aos-delay="200">
-              <span className='text-amber-400 font-bold'>We don't settle for mediocrity when it comes to your organization's security.</span> Our team of highly experienced trainers have proven their mettle in renowned cybersecurity competitions on a global scale, and helped Fortune 500 companies secure their systems. 
+              <span className='text-amber-400 font-bold'> We don't settle for mediocrity when it 
+              comes to your organization's security. </span> Our team of highly experienced trainers 
+              have proven their mettle in renowned cybersecurity competitions on a global scale, 
+              and helped Fortune 500 companies secure their systems. 
             </p>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              We believe that true expertise is gained through rigorous challenges, so when you choose us, you choose a partner dedicated to delivering the tangible results you need to safeguard your assets.
-              <span className='text-amber-400 font-bold'> Want training that doesn't fall short when stakes are high? </span>
+              We believe that true expertise is gained through rigorous challenges. 
+              That's why we offer comprehensive training programs alongside immersive Capture 
+              The Flag (CTF) events. <span className='text-amber-400 font-bold'>
+              Ready to elevate your cybersecurity game? </span>
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-amber-600 font-bold hover:bg-amber-700 w-full mb-4 sm:w-auto sm:mb-0" href="mailto:contact@bakkhoslabs.com">Let's talk.</a>
+                <a className="
+                  btn text-white text-xl font-bold w-full mb-4 sm:w-auto sm:mb-0
+                  bg-gradient-to-r from-amber-600 to-orange-700  
+                  hover:from-amber-700 hover:to-orange-800" href="mailto:contact@bakkhoslabs.com">
+                  Let's talk.
+                </a>
               </div>
             </div>
           </div>

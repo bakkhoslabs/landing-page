@@ -5,8 +5,6 @@ export const metadata = {
 
 import Hero from '@/components/hero'
 import Features from '@/components/features'
-// import Newsletter from '@/components/newsletter'
-// import Zigzag from '@/components/zigzag'
 import Clients from '@/components/clients'
 import Team from '@/components/team'
 

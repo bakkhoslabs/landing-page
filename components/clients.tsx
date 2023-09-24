@@ -1,8 +1,5 @@
+import { GoldHeading2, SlateHeading4 } from './util/headings'
 import Image from 'next/image'
-
-import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
-import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
-import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 
 export default function Clients() {
   return (
@@ -12,13 +9,10 @@ export default function Clients() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Trusted by the best.</h2>
-            {/* <p className="text-xl text-gray-400">
-              Here's what our clients are saying.
-            </p> */}
-            <p className="text-xl text-gray-400">
-              Meet our valued partners.
-            </p>
+            <GoldHeading2 text="Trusted by the Best." />
+            <div>
+              <SlateHeading4 text="Meet our valued partners." />
+            </div>
           </div>
 
           {/* Clients */}
