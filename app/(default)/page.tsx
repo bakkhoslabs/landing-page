@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - Bakkhos Labs',
+  title: 'Bakkhos Labs - Cybersecurity Training and Consulting',
   description: 'Bakkhos Labs is a cybersecurity training and consulting company.',
 }
 
